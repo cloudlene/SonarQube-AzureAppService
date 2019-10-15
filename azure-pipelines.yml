@@ -16,7 +16,7 @@ steps:
   inputs:
     SourceFolder: '.'
     Contents: '**/*'
-    TargetFolder: ' $(System.DefaultWorkingDirectory)/drop/Infrastructure'
+    TargetFolder: ' $(System.DefaultWorkingDirectory)/drop/SonicQube'
     CleanTargetFolder: true
 - publish:  $(System.DefaultWorkingDirectory)/drop
   artifact: 'Publish SQ deployment scripts'
